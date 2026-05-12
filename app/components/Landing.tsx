@@ -93,12 +93,12 @@ export default function Landing({
 
       <div className="relative z-10">
         <header className="sticky top-0 z-40 border-b border-white/40 bg-white/60 backdrop-blur-md">
-          <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
+          <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--saffron)] text-white font-bold">Z</div>
+              <div className="flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-2xl bg-[var(--saffron)] text-white font-bold">Z</div>
               <div>
-                <p className="text-lg font-semibold tracking-tight">zumoj</p>
-                <p className="text-xs uppercase tracking-[0.2em] text-[var(--muted)]">Pure Veg Cloud Kitchen</p>
+                <p className="text-base sm:text-lg font-semibold tracking-tight">zumoj</p>
+                <p className="text-[10px] sm:text-xs uppercase tracking-[0.15em] text-[var(--muted)] whitespace-nowrap">Pure Veg Cloud Kitchen</p>
               </div>
             </div>
             <nav className="hidden items-center gap-6 text-sm md:flex">
@@ -109,7 +109,7 @@ export default function Landing({
             </nav>
             <motion.a
               href="#cta"
-              className="btn-primary"
+              className="btn-primary px-4 py-2 text-sm sm:px-6 sm:py-3 sm:text-base"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
             >
