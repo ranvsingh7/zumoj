@@ -398,7 +398,7 @@ export default function Landing({
             <div className="space-y-1">
               <p className="text-base font-semibold">Zumoj Food Private Limited</p>
               {/* <p>Ghar ka khana ghar se • 100% Pure Veg</p> */}
-              <p>Kh. No. 798, Ambika Inn Complex Fire Station Road, Sector 5, Harola, Noida UP, 201301</p>
+              <p>Kh. No. 798, Ambika Inn Complex, Fire Station Road, Sector 5, Harola, Noida UP, 201301</p>
               <p className="text-xs">
                 Some visual assets sourced from{" "}
                 <a className="nav-link" href="https://www.vecteezy.com/" target="_blank" rel="noreferrer">
